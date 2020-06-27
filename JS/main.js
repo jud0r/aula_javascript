@@ -1,30 +1,34 @@
+// Symbols
+// Generators
 
-function clicou(){
-    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar!";
-    // alert("Obrigado por clicar");
-}
 
-function redirecionar(){
-    window.open("https://digitalinnovation.one/");
-}
+// var arr = ['Apple', 'Banana', 'Orange'];
 
-function trocar(){
-    document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
-}
+// var apple = arr[0];
+// var banana = arr[1];
+// var orange = arr[2];
 
-function soma(n1, n2){
-    return n1 + n2;
-}
+// var[apple2, banana2, orange2] = ['Apple', 'Banana', 'Orange'];
 
-function validaIdade(idade){
-    var validar;
-    if (idade >= 18) {
-        validar = true;
-    } else {
-        validar = false;
-    }
-    return validar;
-}
+// console.log(apple, apple2);
+
+//rest operator ...
+
+// function sum(...args){
+//   return args.reduce((acc, value) => acc + value, 0);
+// }
+
+// console.log(sum(5, 5, 5, 2, 3, 3));
+
+// spread operator p / strings, arrays, objects e objetos iteraveis
+
+// const str = 'Digital Innovation One';
+
+// function logArgs(...args){
+//   console.log(args);
+// }
+
+// logArgs(...str);
 
 // var idade = prompt("Qual sua idade?");
 // console.log(validaIdade(idade));
