@@ -1,6 +1,9 @@
 // Symbols
 // Generators
 
+// Promise -> PENDING / FULFILLED / REJECTED
+
+//Fetch, Async/Awayt e EventEmitter
 
 // var arr = ['Apple', 'Banana', 'Orange'];
 
